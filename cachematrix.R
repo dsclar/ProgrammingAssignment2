@@ -32,7 +32,7 @@ x$setsolve(inv)
 inv
 }
     {
-        ## Return a matrix that is the inverse of 'x'
+        return(inv)
 }
 
 inv=makeCacheMatrix(matrix(c(1,2,3,4), nrow=2, ncol=2))  
